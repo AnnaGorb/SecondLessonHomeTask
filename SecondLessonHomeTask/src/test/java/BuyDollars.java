@@ -17,7 +17,9 @@ import org.openqa.selenium.support.ui.Select;
         private boolean acceptNextAlert = true;
         private StringBuffer verificationErrors = new StringBuffer();
 
-        @BeforeClass(alwaysRun = true)
+
+
+      @BeforeClass(alwaysRun = true)
         public void setUp() throws Exception {
             driver = new FirefoxDriver();
             baseUrl = "http://finance.i.ua/";
